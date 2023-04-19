@@ -6,13 +6,11 @@ const testThreeList = ref(['a', 'b', 'c', 'd'])
 
 <template>
   <div>
-    <h2>Test 2</h2>
+    <h1>Iterating Assertions</h1>
     <ul>
       <li v-for="item in testThreeList" :key="item">
         {{ item }}
       </li>
     </ul>
   </div>
-
-  <hr />
 </template>

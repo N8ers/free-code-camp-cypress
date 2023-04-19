@@ -8,7 +8,7 @@ const text = ref('')
 <template>
   <div>
     <div>
-      <h2>Test 3</h2>
+      <h1>User Interactions</h1>
       <h3 data-test="count">Count: {{ count }}</h3>
       <div>
         <button data-test="addOne" @click="count = count + 1">add one</button>

@@ -19,10 +19,8 @@ const requestUsers = async () => {
 
 <template>
   <div>
-    <h2>Test 4</h2>
+    <h1>Network Requests</h1>
     <div data-test="coolestJedi">Coolest Jedi: {{ jedi }}</div>
     <button @click="requestUsers">Make a network request to find out</button>
   </div>
-
-  <hr />
 </template>
