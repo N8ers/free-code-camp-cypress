@@ -1,8 +1,4 @@
-/**
- * Section Notes
- */
-
-describe('Test 5', () => {
+describe('Network Requests', () => {
   beforeEach(() => {
     cy.visit('http://127.0.0.1:5173/5')
 
