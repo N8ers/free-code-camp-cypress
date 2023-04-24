@@ -4,19 +4,18 @@ describe('Finding And Asserting', () => {
   })
 
   it('The welcome text is "Hello Cypress!"', () => {
-    cy.get('h2').should('have.text', 'Hello Cypress')
-    cy.get('h2').should('not.have.text', 'Hi Tsuki!')
+    // Test your might....
   })
 
   it('Check for the div with a class', () => {
-    cy.get('.div-class').should('have.text', "I'm a div with a class")
+    // Test your might....
   })
 
   it('Check for the div with an id', () => {
-    cy.get('#div-id').should('have.text', "I'm a div with an id")
+    // Test your might....
   })
 
   it('Check for the div with a data-test', () => {
-    cy.get('[data-test="div-data-test"]').should('have.text', "I'm a div with a data-test")
+    // Test your might....
   })
 })

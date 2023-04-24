@@ -8,7 +8,6 @@ describe('Network Requests', () => {
   })
 
   it('Clicking button triggers a network request', () => {
-    cy.get('button').trigger('click')
-    cy.get('[data-test="coolestJedi"]').should('have.text', 'Coolest Jedi: Luke Skywalker')
+    // Test your might....
   })
 })
