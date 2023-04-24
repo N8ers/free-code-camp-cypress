@@ -1,21 +1,20 @@
 # fcc-cypress
 
-Congratulations! You've found the companion repository to a [Free Code Camp](https://www.freecodecamp.org/) talk on the end-to-end testing tool [Cypress](https://www.cypress.io/)!
+Congratulations, you've found the companion repository to a [Free Code Camp](https://www.freecodecamp.org/) talk on the end-to-end testing tool [Cypress](https://www.cypress.io/)!
 
-The frontend of the app is written in vue.js, but please don't look at it too closely! Some best practices were ignored for the sake of education.
-
-**NOTE:** You must have [Node.js](https://nodejs.org/en) installed for this project to work locally.
+This app is written in vue.js, but please don't look at it too closely! Some best practices were ignored for the sake of education.
 
 ## Overview of Branches
 
 This project has several branches, feel free to use the one that best meets your needs.
 
 1. `1-start-here` - If you want to install and initialize cypress on your own, start here.
-1. `2-cypress-initialized` - Cypress is initialized and configured, but there are no test prompts.
-1. `3-test-your-might` - Cypress is initialized and configured, several test files have been made with test prompts that you can then write tests for. This branch is an oppertunity to TEST YOUR MIGHT 💪.
-1. `4-cypress-answers` - Answers to the prompts that were provided in branch `3-test-your-might`.
+1. `2-test-your-might` - Cypress is initialized and configured, several test files have been made with test prompts that you can then write tests for. This branch is an oppertunity to TEST YOUR MIGHT 💪.
+1. `3-the-answers-to-everything` - Answers to the prompts that were provided in branch `2-test-your-might`.
 
 ## Project Setup
+
+**NOTE:** You must have [Node.js](https://nodejs.org/en) installed for this project to work locally.
 
 1. clone the project
 
