@@ -5,9 +5,9 @@ const router = useRouter()
 
 const navigateToListItem = (itemId = null) => {
   if (itemId) {
-    router.push({ path: '/4', query: { 'selected-item': itemId } })
+    router.push({ path: '/url-validation', query: { 'selected-item': itemId } })
   } else {
-    router.push({ path: '/4', query: {} })
+    router.push({ path: '/url-validation', query: {} })
   }
 }
 </script>

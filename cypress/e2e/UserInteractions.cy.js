@@ -1,6 +1,6 @@
 describe('User Interactions', () => {
   beforeEach(() => {
-    cy.visit('http://127.0.0.1:5173/3')
+    cy.visit('http://127.0.0.1:5173/user-interactions')
   })
 
   describe('Counter', () => {

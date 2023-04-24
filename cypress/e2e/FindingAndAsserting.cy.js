@@ -4,8 +4,8 @@ describe('Finding And Asserting', () => {
   })
 
   it('The welcome text is "Hello Cypress!"', () => {
-    cy.get('p').should('have.text', 'Hello Cypress')
-    cy.get('p').should('not.have.text', 'Hi Tsuki!')
+    cy.get('h2').should('have.text', 'Hello Cypress')
+    cy.get('h2').should('not.have.text', 'Hi Tsuki!')
   })
 
   it('Check for the div with a class', () => {

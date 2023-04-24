@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const testThreeList = ref(['a', 'b', 'c', 'd'])
+const testThreeList = ref(['throw rocks', 'wear socks', 'eat trash', 'avoid responsibility'])
 </script>
 
 <template>
