@@ -1,6 +1,6 @@
 describe('Finding And Asserting', () => {
   beforeEach(() => {
-    cy.visit('http://127.0.0.1:5173/1')
+    cy.visit('http://127.0.0.1:5173/finding-and-asserting')
   })
 
   it('The welcome text is "Hello Cypress!"', () => {
